@@ -138,7 +138,7 @@ const sectors = [
   
   events.addListener("spinEnd", (sector) => {
     // winnername.innerHTML = `You won ${sector.label}`;
-    winnername.innerHTML = `Congratulations ${custName.value}, You won ${sector.label} in Lucky Draw. Claim it on Booking New Villa`;
-    console.log(`Congratulations ${custName.value}, You won ${sector.label} in Lucky Draw By Own Your Luxury Villa`);
+    winnername.innerHTML = `Congratulations ${custName.value}, You won ${sector.label} in Lucky Draw. Claim it on booking new plot`;
+    //console.log(`Congratulations ${custName.value}, You won ${sector.label} in Lucky Draw By Own Your Luxury Villa`);
   });
   
