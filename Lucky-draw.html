@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Welcome to Bhavishya Lucky Spin the Wheel</title>
+    <meta charset="UTF-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+      #winner{padding: 16px;}
+    </style>
+    <link rel="stylesheet" href="./spin.css" />
+  </head>
+
+  <body>
+    <!-- <h1 contenteditable="true" id="name">Customer name</h1> -->
+     <div class="username">
+     <input type="text" id="name" placeholder="Enter Name">
+     <input type="tel" id="mobile" placeholder="Enter Mobile Number">
+     <textarea name="add" id="addr" placeholder="enter address"></textarea>
+     <!-- <a href="#" type="submit" id="spin1">start</a> -->
+      <button type="submit" id="spin1">Spin</button>
+    </div>
+    <div id="spin_the_wheel">
+      <canvas id="wheel" width="500" height="500"></canvas>
+      <div id="spin">SPIN</div>
+      <!-- <div id="spin">SPIN</div> -->
+    </div>
+    <h2 id="winner">Lucky Winner</h2>
+    <script defer src="./custom.js"></script>
+  </body>
+</html>
